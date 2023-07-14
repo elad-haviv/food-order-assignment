@@ -5,8 +5,8 @@ import styles from './Header.module.css'
 function Header() {
   return (
     <header className={styles.header}>
-        <h1>React Meals</h1>
-        <HeaderCartButton />
+      <h1>The Witch's Brew</h1>
+      <HeaderCartButton />
     </header>
   )
 }

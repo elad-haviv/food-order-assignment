@@ -1,0 +1,14 @@
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description {
+    font-style: italic;
+}
+
+.price {
+    color: #c15895;
+    font-weight: bold;
+}

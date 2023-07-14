@@ -1,0 +1,10 @@
+.form button {
+    font-size: 1.1em;
+    padding: .25rem 1rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: #ff518b;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
