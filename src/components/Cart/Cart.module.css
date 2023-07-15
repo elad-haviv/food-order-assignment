@@ -1,0 +1,26 @@
+.total {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.actions {
+    text-align: end;
+}
+
+.button,
+.button-alt {
+    background-color: #ff518b;
+    border: 1px solid #ff518b;
+    border-radius: 2.5rem;
+    padding: .5rem 1rem;
+    color: white;
+    margin-inline-start: .5rem;
+}
+
+.button-alt {
+    color: #ff518b;
+    background: whitesmoke;
+}
