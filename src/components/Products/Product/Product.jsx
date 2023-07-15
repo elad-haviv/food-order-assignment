@@ -11,7 +11,7 @@ function Product({ item }) {
                 <p className={styles.price}>{item.price} Coins</p>
             </div>
             <div>
-                <ProductForm />
+                <ProductForm id={item.id} />
             </div>
         </div>
     )

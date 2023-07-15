@@ -2,11 +2,11 @@ import React from 'react'
 import Input from '../../UI/Input'
 import styles from './ProductForm.module.css'
 
-function ProductForm() {
+function ProductForm({ id }) {
     return (
         <form className={styles.form}>
             <Input label="Amount" input={{
-                id: "lol",
+                id: "amount_" + id,
                 type: "number",
                 min: 1,
                 max: 5,

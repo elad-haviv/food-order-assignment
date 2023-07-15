@@ -69,7 +69,7 @@ const DUMMY_DATA = [
 function AvailableProducts() {
     const productList = DUMMY_DATA.map(product => (
         <li>
-            <Product item={product} />
+            <Product item={product} key={product.id} />
         </li>
     ))
 
