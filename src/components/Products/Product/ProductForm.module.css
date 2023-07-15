@@ -1,3 +1,9 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
 .form button {
     font-size: 1.1em;
     padding: .25rem 1rem;
